@@ -1,0 +1,113 @@
+.navbar{
+    background-color: black;
+    overflow: hidden;
+}
+.container-navbar li{
+    display: inline;
+    float: center;
+}
+.container-navbar a{
+    color: #a89b8c;
+    font-size: medium;
+}
+.content h1{
+    text-align: center;
+}
+.container-navbar a{
+    margin: 1%;
+    padding: 2%;
+    text-decoration: white;
+}
+.container-navbar a:hover{
+    margin: 1%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #edf0da;
+}
+header{
+    display: block;
+}
+.content-heading h1{
+    background-color: #a89b8c;
+    margin: 5%;
+    padding: 10%;
+}
+.card-title{
+    display: block;
+    text-align: center;
+}
+h2, h5{
+    display: inline-block;
+    margin: 5%;
+}
+.card-one{
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px 0px;
+    width: 300px;
+    background-color: white;
+}
+.card-one:hover{
+    float: left ;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 0px 8px 16px 0px;
+    width: 300px;
+}
+.card-one img{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.card-button{
+    display: block;
+    text-align: center;
+}
+.card-content{
+    position: relative;
+    padding: 2%;
+}
+button{
+    background-color: #AA4465;
+    border-radius: 5px;
+}
+.watches{
+    margin: 0 -5px;
+}
+.form-heading{
+    text-align: center;
+}
+form{
+    display: inline-block;
+    margin: 1%;
+}
+input[type=text], select{
+    margin: 1%;
+}
+
+.end-watch-display{
+    margin: 5%;
+}
+hr{
+    width: 50%;
+    align-items: center;
+    margin-top: 5%;
+    border-color: #a89b8c;
+}
+main{
+    background-color: #edf0da;
+    padding: 2px;
+}
+main > .content-watches{
+    background-color: #edf0da;
+}
+footer{
+    display: block;
+    text-align: center;
+    background-color: #a89b8c;
+    margin: 1%;
+    padding: 1%;
+}
